@@ -1,8 +1,11 @@
 
 
 // ...existing code...
-.sidebar .author__desktop i,
-.sidebar .author__desktop a {
+.author__desktop {
+    white-space: nowrap;
+}
+.author__desktop i,
+.author__desktop a {
     display: inline-block !important;
     vertical-align: middle;
 }

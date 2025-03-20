@@ -27,6 +27,9 @@
       {% if author.location %}
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{% if author.google_map_link %} <a href="{{ author.google_map_link }}" target="_blank">{{ author.location }}</a>{% else %}{{ author.location }}{% endif %}</li>
       {% endif %}
+
+      <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{% if author.google_map_link %}<a href="{{ author.google_map_link }}" target="_blank">{{ author.location }}</a>{% else %}{{ author.location }}{% endif %}</li>
+
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
