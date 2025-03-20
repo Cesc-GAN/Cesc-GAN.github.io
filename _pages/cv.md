@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Optical Engineering, GitHub University, 2025 (expected)
+* Ph.D in Optical Engineering, Zhejiang University, 2025 (expected)
 * B.E. in Opto-electronic Information Science and Engineering, Zhejiang University, 2020
 
 Research experience
@@ -32,34 +32,9 @@ Research experience
   * Application of deformable mirror: Calibrated the deformable mirrors through home-built interference system; achieved high axial super-resolution by introducing astigmatism on deformable mirror.
   * Reconstruction algorithm with joint parameter fitting: Achieved fast reconstruction of simulated SMILE data through GPU acceleration and joint parameter fitting.
   * Preparation for biological imaging: Optimized and calibrated relevant experimental parameters, including phase retardance of fluorescence interference, modulation depth of modulated illumination and PSF engineering introduced by deformable mirror.
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Jul. 2019 - Sept. 2019: 3D reconstruction of optical microscope (Summer research in University of California, Davis, under the guidance of Prof. Weijian Yang)
+  * Image deconvolution and filtering: Implemented iterative Richardson-Lucy deconvolution algorithm in MATLAB to de-blur the images in different depths; studied scalar diffraction theory and apply the scalar PSF to recover 3D Structure of objects.
+  * Neuron network training: Trained and fine-tuned the U-net on a diffration-limited dataset to improve the performance and efficiency of the 3D reconstruction for more complicated objects.
+
+
