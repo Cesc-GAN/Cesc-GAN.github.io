@@ -35,37 +35,3 @@ author_profile: true
 {% endif %}
 
 ...
-{% if post.doi %}
-  <p class="publication-doi">
-    DOI: <a href="{{ post.doi }}" target="_blank">{{ post.doi }}</a>
-  </p>
-{% endif %}
-
-...
-{% if post.authors %}
-  <p class="publication-authors">
-    Authors: {{ post.authors }}
-  </p>
-{% endif %}
-...
-
-
-{% include base_path %}
-
-<!-- 筛选出 SIM 类的文章 -->
-{% assign sim_posts = site.publications | where: "pub_category", "Structured illumination microscopy" %}
-{% if sim_posts.size > 0 %}
-  <h2>SIM Publications</h2>
-  {% for post in sim_posts reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-<!-- 筛选出 SMLM 类的文章 -->
-{% assign smlm_posts = site.publications | where: "pub_category", "Single-molecule localization miscroscopy" %}
-{% if smlm_posts.size > 0 %}
-  <h2>SMLM Publications</h2>
-  {% for post in smlm_posts reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
