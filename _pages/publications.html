@@ -34,7 +34,6 @@ author_profile: true
   {% endfor %}
 {% endif %} -->
 
-...
 <!-- 筛选出 SIM 类的文章 -->
 {% assign sim_posts = site.publications | where: "pub_category", "Structured illumination microscopy" %}
 {% if sim_posts.size > 0 %}
