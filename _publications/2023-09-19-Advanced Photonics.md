@@ -3,7 +3,7 @@ title: "Fluorescence interference structured illumination microscopy for 3D morp
 collection: publications
 category: manuscripts
 permalink: /publication/2025-01-15-ACS Photonics
-Key words: 'super-resolution microscopy; fluorescence interference; structured illumination microscopy'
+keywords: 'super-resolution microscopy; fluorescence interference; structured illumination microscopy'
 date: 2023-09-19
 venue: 'Advanced Photonics'
 slidesurl: #

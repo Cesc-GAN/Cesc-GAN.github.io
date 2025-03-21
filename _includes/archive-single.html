@@ -68,3 +68,9 @@
 
   </article>
 </div>
+
+{% if post.keywords %}
+  <p class="publication-keywords">
+    Keywords: {{ post.keywords }}
+  </p>
+{% endif %}
