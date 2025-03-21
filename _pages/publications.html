@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -47,3 +49,23 @@ author_profile: true
 {% endif %}
 ...
 
+
+{% include base_path %}
+
+<!-- 筛选出 SIM 类的文章 -->
+{% assign sim_posts = site.publications | where: "pub_category", "Structured illumination microscopy" %}
+{% if sim_posts.size > 0 %}
+  <h2>SIM Publications</h2>
+  {% for post in sim_posts reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- 筛选出 SMLM 类的文章 -->
+{% assign smlm_posts = site.publications | where: "pub_category", "Single-molecule localization miscroscopy" %}
+{% if smlm_posts.size > 0 %}
+  <h2>SMLM Publications</h2>
+  {% for post in smlm_posts reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

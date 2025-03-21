@@ -2,6 +2,7 @@
 title: "Fluorescence interference structured illumination microscopy for 3D morphology imaging with high axial resolution"
 collection: publications
 category: manuscripts
+pub_category: Structured illumination microscopy
 permalink: /publication/2025-01-15-ACS Photonics
 keywords: 'super-resolution microscopy; fluorescence interference; structured illumination microscopy'
 date: 2023-09-19

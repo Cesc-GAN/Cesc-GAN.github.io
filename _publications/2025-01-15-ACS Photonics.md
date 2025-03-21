@@ -2,6 +2,7 @@
 title: "Fluorescence Interference-Based Polarized Structured Illumination Microscopy for High Axial Accuracy Morphology Imaging of Dipole Orientations"
 collection: publications
 category: manuscripts
+pub_category: Structured illumination microscopy
 permalink: /publication/2025-01-15-ACS Photonics
 keywords: 'polarization microscopy, 4Pi microscopy, structured illumination microscopy'
 date: 2025-01-15
