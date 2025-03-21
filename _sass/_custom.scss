@@ -9,3 +9,15 @@
     display: inline-block !important;
     vertical-align: middle;
 }
+
+// 文件: c:\Users\A\Desktop\找工作\syl1998.github.io\_sass\_custom.scss
+.publication-category-title {
+    font-family: 'Merriweather', Georgia, serif; // 建议引入对应字体
+    font-size: 1.8em;       // 字号适中
+    color: #333;            // 使用稍深的色调
+    border-bottom: 1px solid #ccc; // 较细的边框，颜色也可稍淡
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem; // 内边距让边框看起来更有呼吸感
+    font-weight: bold;
+  }

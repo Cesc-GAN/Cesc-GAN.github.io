@@ -37,7 +37,7 @@ author_profile: true
 <!-- 筛选出 SIM 类的文章 -->
 {% assign sim_posts = site.publications | where: "pub_category", "Structured illumination microscopy" %}
 {% if sim_posts.size > 0 %}
-  <h2>Structured illumination microscopy</h2>
+  <h2 class="publication-category-title">Structured illumination microscopy</h2>
   {% for post in sim_posts reversed %}
     {% include archive-single.html %}
   {% endfor %}
@@ -46,7 +46,7 @@ author_profile: true
 <!-- 筛选出 SMLM 类的文章 -->
 {% assign smlm_posts = site.publications | where: "pub_category", "Single-molecule localization miscroscopy" %}
 {% if smlm_posts.size > 0 %}
-  <h2>Single-molecule localization miscroscopy</h2>
+  <h2 class="publication-category-title">Single-molecule localization miscroscopy</h2>
   {% for post in smlm_posts reversed %}
     {% include archive-single.html %}
   {% endfor %}
