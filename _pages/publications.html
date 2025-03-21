@@ -32,5 +32,13 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+...
+{% if page.doi %}
+  <p class="publication-doi">
+    DOI: <a href="{{ page.doi }}" target="_blank">{{ page.doi }}</a>
+  </p>
+{% endif %}
+...
+
 
 

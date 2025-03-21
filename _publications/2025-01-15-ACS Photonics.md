@@ -3,11 +3,12 @@ title: "Fluorescence Interference-Based Polarized Structured Illumination Micros
 collection: publications
 category: manuscripts
 permalink: /publication/2025-01-15-ACS Photonics
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+Key words: 'polarization microscopy, 4Pi microscopy, structured illumination microscopy'
 date: 2025-01-15
 venue: 'ACS Photonics'
 slidesurl: #
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: #
+DOI: 'https://doi.org/10.1021/acsphotonics.4c01807'
 citation: #
 ---
 
