@@ -14,7 +14,7 @@ author_profile: true
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -32,13 +32,13 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 ...
 <!-- 筛选出 SIM 类的文章 -->
 {% assign sim_posts = site.publications | where: "pub_category", "Structured illumination microscopy" %}
 {% if sim_posts.size > 0 %}
-  <h2>SIM Publications</h2>
+  <h2>Structured illumination microscopy</h2>
   {% for post in sim_posts reversed %}
     {% include archive-single.html %}
   {% endfor %}
@@ -47,7 +47,7 @@ author_profile: true
 <!-- 筛选出 SMLM 类的文章 -->
 {% assign smlm_posts = site.publications | where: "pub_category", "Single-molecule localization miscroscopy" %}
 {% if smlm_posts.size > 0 %}
-  <h2>SMLM Publications</h2>
+  <h2>Single-molecule localization miscroscopy</h2>
   {% for post in smlm_posts reversed %}
     {% include archive-single.html %}
   {% endfor %}

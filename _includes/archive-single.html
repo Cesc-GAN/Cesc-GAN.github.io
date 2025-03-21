@@ -81,12 +81,10 @@
   </p>
 {% endif %}
 
-...
-{% assign authors_array = post.authors | split: ", " %}
+
 <p class="publication-authors">
-  Authors: {{ post.authors | replace: 'Yile Sun', '<strong>Yile Sun</strong>' }}
+  Authors: {{ post.authors | replace: 'Yile Sun', '<strong>Yile Sun</strong>' | safe }}
 </p>
-...
 
 
 
