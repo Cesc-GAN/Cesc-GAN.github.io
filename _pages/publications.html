@@ -39,5 +39,11 @@ author_profile: true
   </p>
 {% endif %}
 
-
+...
+{% if post.authors %}
+  <p class="publication-authors">
+    Authors: {{ post.authors }}
+  </p>
+{% endif %}
+...
 
