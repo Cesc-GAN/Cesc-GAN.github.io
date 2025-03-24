@@ -22,7 +22,7 @@ repository               : "Cesc-GAN/syl1998.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/image/myself.jpg"
+  avatar           : "myself.jpg" # filename of avatar image placed in /images/, .e.g. "myself.jpg"
   name             : "Yile Sun"
   pronouns         : "he/him"  
   bio              : #
