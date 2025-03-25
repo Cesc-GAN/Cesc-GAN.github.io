@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Unveiling the Invisible"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,12 +13,12 @@ My research focuses on super-resolution microscopy, including structured illumin
 
 <figure>
   <img src="https://cesc-gan.github.io/syl1998.github.io/images/4Pi.jpg" alt="Modulated illumination based 4Pi wide-field microscope">
-  <figcaption style="text-align: center; font-size: 16px;">Modulated illumination based 4Pi wide-field microscope
+  <figcaption style="text-align: center; font-size: 15px;">Modulated illumination based 4Pi wide-field microscope
 
 <figure>
 <img src="https://cesc-gan.github.io/syl1998.github.io/images/NPC.jpg" alt="3D-SMLM reconstruction of immunofluorescence-labeled Nup96 on the nuclear pore complexes in U2OS cells">
-<figcaption style="text-align: center; font-size: 16px;">3D-SMLM reconstruction of immunofluorescence-labeled Nup96 on the nuclear pore complexes in U2OS cells
+<figcaption style="text-align: center; font-size: 15px;">3D-SMLM reconstruction of immunofluorescence-labeled Nup96 on the nuclear pore complexes in U2OS cells
 
 <figure>
 <img src="https://cesc-gan.github.io/syl1998.github.io/images/FI-SIM.jpg" alt="3D Morphology Imaging based on 3D-SIM and ensemble axial reconstruction of fluroescence interference"> 
-<figcaption style="text-align: center; font-size: 16px;">3D Morphology Imaging based on 3D-SIM and ensemble axial reconstruction of fluroescence interference
+<figcaption style="text-align: center; font-size: 15px;">3D Morphology Imaging based on 3D-SIM and ensemble axial reconstruction of fluroescence interference
