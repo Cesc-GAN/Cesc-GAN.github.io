@@ -16,6 +16,6 @@ My research focuses on super-resolution microscopy, including structured illumin
 <img src="/_pages/FI-SIM.jpg" alt="3D Morphology Imaging based on 3D-SIM and ensemble axial reconstruction of fluroescence interference"> -->
 
 <figure>
-  <img src="/images/4Pi.pdf" alt="Modulated illumination based 4Pi wide-field microscope">
+  <img src="/images/4Pi.jpg" alt="Modulated illumination based 4Pi wide-field microscope">
   <figcaption>Modulated illumination based 4Pi wide-field microscope</figcaption>
 </figure>
